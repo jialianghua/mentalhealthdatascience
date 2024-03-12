@@ -9,7 +9,6 @@ output:
 # Melanie Wall
 
 <img src="images/wall_melanie_1small.jpg" style="width:30%">
-you can search for `html figure style` 
 
 ---------------
 
