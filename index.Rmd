@@ -1,0 +1,15 @@
+---
+title: "Mental Health Data Science"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# This is an awesome website
+
+![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+
+I can link to useful things like google [google](https://www.google.com) and [p8105](https://p8105.com/index.html)
+
+Add an extra page on my site. Here is my [about](about.html) page.
