@@ -10,5 +10,21 @@ output:
 
 ## Leave a comment here
 
+<div id="utterances-container"></div>
+
+<script>
+    (function() {
+        var script = document.createElement("script");
+        script.src = "https://utteranc.es/client.js";
+        script.setAttribute("repo", "jialianghua/mentalhealthdatascience");
+        script.setAttribute("issue-term", "og:title");
+        script.crossOrigin = "anonymous";
+        script.setAttribute("label", "comment");
+        script.setAttribute("theme", "github-light");
+
+        document.getElementById('utterances-container').appendChild(script);
+    })();
+</script>
+
 
 Here's back to the [index](index.html) page.
