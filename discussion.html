@@ -37,22 +37,6 @@
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-6.4.0/css/all.min.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-6.4.0/css/v4-shims.min.css" rel="stylesheet" />
-<script>
-    (function() {
-        var script = document.createElement("script");
-        script.src = "https://utteranc.es/client.js";
-        // Correctly formatted repository name
-        script.setAttribute("repo", "jialianghua/mentalhealthdatascience");
-        script.setAttribute("issue-term", "og:title");
-        script.crossOrigin = "anonymous";
-        script.setAttribute("label", "comment");
-
-        // Append the script directly to the body or a specific element
-        // If you have a specific element where you want to place the comments, use its ID or class instead of 'document.body'
-        // Example: document.querySelector('#comments').appendChild(script);
-        document.body.appendChild(script);
-    })();
-</script>
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -376,21 +360,26 @@ div.tocify {
 
 <div id="leave-a-comment-here" class="section level2">
 <h2>Leave a comment here</h2>
+<!-- Utterances comments widget -->
 <div id="utterances-container">
 
 </div>
-<script>
-    (function() {
-        var script = document.createElement("script");
-        script.src = "https://utteranc.es/client.js";
-        script.setAttribute("repo", "jialianghua/mentalhealthdatascience");
-        script.setAttribute("issue-term", "og:title");
-        script.crossOrigin = "anonymous";
-        script.setAttribute("label", "comment");
-        script.setAttribute("theme", "github-light");
-
-        document.getElementById('utterances-container').appendChild(script);
-    })();
+<script type="text/javascript">
+  (function() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://utteranc.es/client.js';
+    s.setAttribute('repo', 'jialianghua/mentalhealthdatascience'); 
+    s.setAttribute('issue-term', 'pathname');
+    s.setAttribute('label', 'blog-comment');
+    s.setAttribute('theme', 'github-light');
+    s.setAttribute('crossorigin', 'anonymous');
+    s.async = true;
+    s.onload = function() {
+      var scriptTag = d.getElementById('utterances-container');
+      scriptTag.appendChild(s);
+    };
+    d.getElementsByTagName('head')[0].appendChild(s);
+  })();
 </script>
 <p>Here’s back to the <a href="index.html">index</a> page.</p>
 </div>

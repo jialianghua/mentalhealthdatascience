@@ -4,26 +4,29 @@ output:
   html_document:
     toc: true
     toc_float: true
-    includes:
-      in_header: utterances.html
 ---
 
 ## Leave a comment here
 
+
+<!-- Utterances comments widget -->
 <div id="utterances-container"></div>
-
-<script>
-    (function() {
-        var script = document.createElement("script");
-        script.src = "https://utteranc.es/client.js";
-        script.setAttribute("repo", "jialianghua/mentalhealthdatascience");
-        script.setAttribute("issue-term", "og:title");
-        script.crossOrigin = "anonymous";
-        script.setAttribute("label", "comment");
-        script.setAttribute("theme", "github-light");
-
-        document.getElementById('utterances-container').appendChild(script);
-    })();
+<script type="text/javascript">
+  (function() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://utteranc.es/client.js';
+    s.setAttribute('repo', 'jialianghua/mentalhealthdatascience'); 
+    s.setAttribute('issue-term', 'pathname');
+    s.setAttribute('label', 'blog-comment');
+    s.setAttribute('theme', 'github-light');
+    s.setAttribute('crossorigin', 'anonymous');
+    s.async = true;
+    s.onload = function() {
+      var scriptTag = d.getElementById('utterances-container');
+      scriptTag.appendChild(s);
+    };
+    d.getElementsByTagName('head')[0].appendChild(s);
+  })();
 </script>
 
 
