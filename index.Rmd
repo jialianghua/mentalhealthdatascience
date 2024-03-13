@@ -6,10 +6,40 @@ output:
     toc_float: true
 ---
 
-# This is an awesome website
-
 <img src="images/dept_logo.jpg" style="width:55%">
 
-Link to useful things: google [google](https://www.google.com) and [p8105](https://p8105.com/index.html)
+# Overview
 
-Add an extra page on my site. Here is my [about](about.html) page.
+Mental Health Data Science provides statistical collaboration, data analytic methodological development, and data management for psychiatric and mental health research conducted within the Columbia University Department of Psychiatry, Research Foundation for Mental Hygiene (RFMH), and New York State Psychiatric Institute (NYSPI). We participate in extensive statistical collaborations with over 50 psychiatry researchers in any given year, providing statistical expertise and analysis to projects, including: biomarkers from brain imaging and neurocognitive tasks for mood and anxiety disorders and psychosis; clinical trials of new pharmacotherapies and psychotherapies for psychiatric and neurological disorders, including building treatment decision rules; implementation studies of support service programs for mental health treatment and prevention; measurement studies for improving psychometrics of diagnosis instruments in substance use disorders, depression, and biological aging; cohort studies of child-adolescent development of psychiatric and substance use disorders; causal analysis of prescribing practices monitored from medical claims records; momentary assessment studies of cardiovascular response to emotions and stress markers related to suicide; and much more.
+
+# Goals
+
+* Providing support for the application of traditional, trusted, and highly effective core biostatistical methods for data analysis of psychiatric and mental health research projects
+* Developing and applying new data analytic methods for new and emerging data collection and processing technologies, specifically with applications in mental health
+* Designing and developing secure, web-based systems for research data capture and management, project coordination, report generation, and the production of self-documenting data files for statistical analysis
+
+# Current Research
+
+The area is comprised of co-investigators on over 60 investigator-initiated funded grants from: NIH (NIMH, NIDA, NINDS, NIAAA, NIA, NICHD, NHGRI, NHLBI), PCORI, DoD, VA, SAMSHA, CDC, and AFSP. Some titles include:
+
+* Breaking the Cycle of Intergenerational Disadvantage: Neurodevelopment among Puerto Rican Children (Principal Invesigators [PIs]: Duarte, Canino, Monk, Posner)
+* The Neurobiology of Violence in a Psychosis‐Risk Cohort (PI: Girgis)
+* Predictors of High‐Risk Behavior among Youth (PI: Martins)
+* Health Care Policy and Substance Abuse Treatment Access (PI: Olfson)
+* Using Longitudinal Data to Characterize the Natural History of Fragile X Syndrome (FXS) to Improve Services (PI: Andrews)
+* Cognitive Training and Neuroplasticity in Mild Cognitive Impairment (PI: Devanand)
+* Universal for All, Frequent for Some: HIV Testing in School‐Based Health Centers (PIs: Hoffman, Sandfort)
+* Statistical Methods for Neural Mechanisms mediating cognitive system in mental health (PI: Lee)
+* Zero Suicide Implementation and Evaluation in Outpatient Behavioral Health (PI: Stanley)
+* Suicide Prevention Evaluation (PI: Gould)
+* Statistical Methods for Early Disease Prediction and Treatment Strategy Estimation Using Biomarker Signatures (PI: Wang)
+
+# Groups and Programs
+
+## Biostatistics Group
+
+The Biostatistics Group is led by Dr. Melanie Wall. The biostatistics group includes 13 full time biostatisticians (6 senior biostatistician faculty and 7 biostatistician data analysts) providing statistical collaborative support and developing new innovative statistical methodologies relevant for the Department of Psychiatry, RFMH, and NYSPI research. Expertise is broad, including: statistical learning, analytics for personalized medicine, prediction modeling, network analysis, novel design and analysis of clinical trials, psychometrics, longitudinal data analysis, mediation causal analysis, propensity score analysis, survival analysis, functional data analysis, independent component analysis of imaging data, latent variable modeling (including factor analysis and latent class analysis), and structural equation modeling.
+
+## Data Management Group (DMG)
+
+The Data Management Group (DMG) is led by Dr. Howard Andrews. The DMG works closely with investigators and statisticians to design and develop secure, web-based systems for research data capture and management, project coordination, report generation, and the production of self-documenting data files for statistical analysis. Using advanced data systems and programming, the DMG utilizes decades of experience to maximize efficiency, minimize cost and facilitate the timely delivery of high quality, analytic-ready data files. The DMG builds data and project management systems for clinical trials, cross-sectional and longitudinal studies, and is experienced in the processing and secondary analysis of large public and health-related data sets.
