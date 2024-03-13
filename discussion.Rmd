@@ -10,4 +10,16 @@ output:
 
 ## Leave a comment here
 
+```{js}
+<script src="https://utteranc.es/client.js"
+        repo="jialianghua/mentalhealthdatascience"
+        issue-term="pathname"
+        label="Comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+```
+
+
 Here's back to the [index](index.html) page.
