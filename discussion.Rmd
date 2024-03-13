@@ -9,16 +9,7 @@ output:
 ## Leave a comment here
 
 ```{r echo=FALSE, results='asis'}
-cat('
-<script src="https://utteranc.es/client.js"
-        repo="https://github.com/jialianghua/mentalhealthdatascience"
-        issue-term="pathname"
-        label="Comment"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
-')
+htmltools::includeHTML("utterances.html")
 ```
 
 
