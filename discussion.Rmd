@@ -4,21 +4,10 @@ output:
   html_document:
     toc: true
     toc_float: true
+    includes:
+      in_header: utterances.html
 ---
 
 ## Leave a comment here
-
-```{js, echo=FALSE}
-<script src="https://utteranc.es/client.js"
-        repo="https://github.com/jialianghua/mentalhealthdatascience"
-        issue-term="pathname"
-        label="Comment"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
-```
-
-
 
 Here's back to the [index](index.html) page.
