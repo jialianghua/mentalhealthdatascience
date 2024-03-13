@@ -8,7 +8,7 @@ output:
 
 ## Leave a comment here
 
-```{js}
+```{js, echo=FALSE}
 <script src="https://utteranc.es/client.js"
         repo="https://github.com/jialianghua/mentalhealthdatascience"
         issue-term="pathname"
