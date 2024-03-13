@@ -10,6 +10,6 @@ output:
 
 <img src="images/dept_logo.jpg" style="width:55%">
 
-I can link to useful things like google [google](https://www.google.com) and [p8105](https://p8105.com/index.html)
+Link to useful things: google [google](https://www.google.com) and [p8105](https://p8105.com/index.html)
 
 Add an extra page on my site. Here is my [about](about.html) page.
