@@ -1,8 +1,16 @@
-<script src="https://utteranc.es/client.js"
-        repo="jialianghua/mentalhealthdatascience"
-        issue-term="pathname"
-        label="Comment"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
+<script>
+    (function() {
+        var script = document.createElement("script");
+        script.src = "https://utteranc.es/client.js";
+        // Correctly formatted repository name
+        script.setAttribute("repo", "jialianghua/mentalhealthdatascience");
+        script.setAttribute("issue-term", "og:title");
+        script.crossOrigin = "anonymous";
+        script.setAttribute("label", "comment");
+
+        // Append the script directly to the body or a specific element
+        // If you have a specific element where you want to place the comments, use its ID or class instead of 'document.body'
+        // Example: document.querySelector('#comments').appendChild(script);
+        document.body.appendChild(script);
+    })();
 </script>
